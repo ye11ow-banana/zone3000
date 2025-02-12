@@ -1,0 +1,76 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environment directories (common names)
+env/
+venv/
+ENV/
+.env/
+.venv/
+pipenv-*
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Django migrations (optional: you might want to keep these in version control)
+# */migrations/*.pyc
+
+# Pytest cache and coverage reports
+.cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Translations
+*.mo
+
+# Sphinx documentation
+docs/_build/
+
+# PyCharm
+.idea/
+
+# VS Code
+.vscode/
+
+# macOS specific files
+.DS_Store
+
+# Windows specific files
+Thumbs.db
+
+# Docker specific files
+docker-compose.override.yml
+*.pid
+
+# Other files
+*.bak
+*.sw
+
+# Ignore all .env files
+.env
